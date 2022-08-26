@@ -1,0 +1,32 @@
+h1 {
+  color: #000080;
+  font-size: 200%;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center;
+  border: 5px solid black;
+  background: red;
+  position: relative;
+}
+
+ h2 {
+  border: 4px dotted blue;
+  letter-spacing: 5px;
+  color: #705fe7;
+  text-align: right;
+  }
+   
+ h3 {
+   border: double;
+   outline: 5px dotted green;
+ }
+
+p {
+  margin: 50px;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+ 
+body {
+  background-color: #E7bc5f;
+  }

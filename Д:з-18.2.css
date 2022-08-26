@@ -1,0 +1,17 @@
+body {
+  background-color: #DBDAE9;
+  }
+
+ul {
+  border: 3px solid green;
+  background: #3399ff;
+  padding: 20px;
+  margin: 15px;
+}
+
+ul li {
+  background: #cce5ff;
+  color: #A10c65;
+  margin: 5px;
+  padding: 20px;
+}
