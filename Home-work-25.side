@@ -1,0 +1,135 @@
+{
+  "id": "f71638ca-51b1-4ffa-aaeb-e734213be62a",
+  "version": "2.0",
+  "name": "Home-work-25",
+  "url": "https://platform.study-less.school",
+  "tests": [{
+    "id": "b081ca2a-8adc-41f3-a1b2-b10396291b5b",
+    "name": "Home-work-25",
+    "commands": [{
+      "id": "efd736d7-3a63-4a48-829e-52dc60f40bd9",
+      "comment": "",
+      "command": "open",
+      "target": "/student2/lessons",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c638231-54c7-4205-8346-02f4fd012c1c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x753",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ac196a9-3c18-4d1e-a6d0-a85a4fc39378",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"content\"]/div/div/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div[2]/div/div/div[2]/div[1]/h2",
+      "targets": [],
+      "value": "Elementary"
+    }, {
+      "id": "55053cc1-22da-4ac9-b543-472f0af3bdfd",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"content\"]/div/div/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div[2]/div[1]/h2",
+      "targets": [],
+      "value": "3 Бонусні курси"
+    }, {
+      "id": "7bf95c35-dc7b-42f2-b363-3e0fd458f6e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-tab-item:nth-child(2) > span",
+      "targets": [
+        ["css=.ui-tab-item:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Мои слова')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dba103d-3eda-42ef-b4f5-b18983d18025",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"content\"]/div/div/div[1]/div/div/div[1]/div/div[1]/span",
+      "targets": [],
+      "value": "Мои уроки"
+    }, {
+      "id": "78152d67-9efa-413b-a14f-249d55bfbd28",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"tabs-wrap\"]/div/div[2]/div[1]/div[2]/div[2]/div[3]/div/div/div[4]/div/div/label/div/div/div[1]",
+      "targets": [],
+      "value": "hang out"
+    }, {
+      "id": "d5d75559-5ded-48c6-9b82-794e72ef7e62",
+      "comment": "",
+      "command": "click",
+      "target": "css=.firstTab > span",
+      "targets": [
+        ["css=.firstTab > span", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Мои уроки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b91a9f0-c61b-4682-ba22-077d8d48845e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lessons-template:nth-child(2) .ui-button-base",
+      "targets": [
+        ["css=.lessons-template:nth-child(2) .ui-button-base", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div[2]/div[2]/div/div/div[2]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div/div/div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32ef16e0-007a-44fc-8b7c-2366838037b0",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"blank-modal\"]/div/div[2]/div/div/div[1]/div/div/div[2]/div[1]/div/div[1]/div/div",
+      "targets": [],
+      "value": "Хлудеева Юлия Борисовна"
+    }, {
+      "id": "883b41a4-8950-4c69-90b0-bcaa8d5019e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(1) > .container-box-sizing span",
+      "targets": [
+        ["css=.row:nth-child(1) > .container-box-sizing span", "css:finder"],
+        ["xpath=//div[@id='blank-modal']/div/div[2]/div/div/div[3]/div/div/div/div[3]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Открыть урок')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c990e4c4-f3a8-4bc0-a116-efe72809e451",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7c688b0-6be2-4330-86a6-ac3655bc6387",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-auto:nth-child(1) > .ui-button-base",
+      "targets": [
+        ["css=.col-auto:nth-child(1) > .ui-button-base", "css:finder"],
+        ["xpath=//div[@id='gridContainer']/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6cc52ee4-35b1-470a-80f5-4e86147f1fe3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b081ca2a-8adc-41f3-a1b2-b10396291b5b"]
+  }],
+  "urls": ["https://platform.study-less.school/"],
+  "plugins": []
+}
